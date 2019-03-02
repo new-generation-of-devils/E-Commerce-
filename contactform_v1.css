@@ -1,0 +1,21 @@
+/* all section style*/
+.contact_forum{
+    background-color:#000;
+    height:530px;
+  }
+  #textArea{
+        
+        height:150px;
+        
+    }
+  /* send button postioning*/
+  .sendbutton{
+    margin:auto;
+    margin-top:1%;
+    margin-right:10%;
+  }
+  .map iframe{
+    height:510px;
+    width:80%;
+  }
+  
