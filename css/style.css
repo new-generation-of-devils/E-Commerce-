@@ -1,13 +1,26 @@
-.form-control
+.GR
 {
   background-color: silver;
+  box-shadow: 1px 1px 5px gray;
 }
 .btn
 {
-  margin-top: 20px;
+  margin: 20px 20px 20px 17%;
+  color:white;
+  border-radius: 20%;
+  background-color: black;
+  box-shadow: 1px 1px 5px black;
 }
-.t-c{
-  border-radius: 3%;
+.t-c
+{
+  border-radius: 1.5%;
   border: 1px gray solid ;
   box-shadow: 1px 1px 5px gray;
+}
+.rev
+{
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+  background: silver;
 }
