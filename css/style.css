@@ -6,3 +6,8 @@
 {
   margin-top: 20px;
 }
+.t-c{
+  border-radius: 3%;
+  border: 1px gray solid ;
+  box-shadow: 1px 1px 5px gray;
+}
