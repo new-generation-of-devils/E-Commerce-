@@ -1,0 +1,34 @@
+.container{border:2px solid #000;
+height:100%;
+padding: 10px;}
+.leftCol{
+  
+  margin-top:5%;;
+   height:100%;
+
+}
+.midCol{
+ 
+   height:100%;
+ 
+}
+.rightCol{
+
+   margin-top:5%;
+  height:100%;
+}
+.product_images{
+  
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width:100%
+}
+.title{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 40%
+}
