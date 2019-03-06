@@ -1,0 +1,230 @@
+/*basic*/
+*{
+    margin: 0px ;
+    padding: 0px ;
+    transition: all 2s;
+}
+
+body {
+  font-family: "segoe ui light";
+    background-color: #fff ;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+        font-size: 100px;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 78px ;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px ;
+    font-weight: 300;
+}
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.a {
+    height: 300px;
+}
+.Dad {
+    position: relative;
+}
+.Child {
+    position: absolute;
+    left: 35%;
+    top: 42%;
+    color: white ;
+}
+
+
+
+/*img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display:flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 304px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 438px;
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+*/
+/*Gallery*/
+.coverside
+{
+  padding-top: 5%;
+}
+.covercenter
+{
+  padding-bottom: 5%
+}
+
+
+/*Getting Review*/
+.GR
+{
+  background-color: silver;
+  box-shadow: 1px 1px 5px gray;
+}
+.btn
+{
+  margin: 20px 20px 20px 17%;
+  color:white;
+  border-radius: 20%;
+  background-color: black;
+  box-shadow: 1px 1px 5px black;
+}
+.t-c
+{
+  border-radius: 1.5%;
+  border: 1px gray solid ;
+  box-shadow: 1px 1px 5px gray;
+}
+.rev
+{
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+  background: silver;
+}
+
+
+
+
+/*productviewer*/
+#productviewer {
+    width: 60%;
+    position: fixed ;
+    left:12.5%;
+    top: 10%;
+    opacity: 0;
+    z-index: 1000000;
+}
+.buton {
+    background-color: dodgerblue;
+    box-shadow: 1px 1px 5px grey;
+    color:azure;
+}
+.Dad {
+    position: relative;
+    overflow: hidden;
+}
+.viewchild1 {
+    position: absolute;
+    right: 1.5px;
+    top: 20%;
+}
+.viewchild2 {
+    position: absolute;
+    right: 1.5px;
+    top: 40%;
+}
+.viewchild3 {
+    position: absolute;
+    right: 1.5px;
+    top: 60%;
+}
+.viewchild4 {
+    position: absolute;
+    right: 1.5px;
+    top: 80%;
+}
+#viewerclose{
+    width: 20px ;
+    height: 25px;
+    position: absolute;
+    left: -.35%;
+    top: -.8%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.sub1 {
+    width:25%;
+    height: 100%;
+    position: absolute;
+    left: 100.2%;
+    top: 0;
+    border-radius: 4%;
+    background-color: #151f38;
+}
+.sub2 {
+    width:25%;
+    height: 100%;
+    position: absolute;
+    left: 100.2%;
+    top: 0;
+    border-radius: 4%;
+    opacity: 0;
+    background-color: #151f38;
+}
+.sub3 {
+    width:25%;
+    height: 100%;
+    position: absolute;
+    left: 100.2%;
+    top: 0;
+    border-radius: 4%;
+    opacity: 0;
+    background-color: #151f38;
+}
+.sub4 {
+    width:25%;
+    height: 100%;
+    position: absolute;
+    left: 100.2%;
+    top: 0;
+    border-radius: 4%;
+    opacity: 0;
+    background-color: #151f38;
+}
+.buton:hover {
+    background-color: cyan ;
+}
